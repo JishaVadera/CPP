@@ -10,11 +10,11 @@ class rectangle
        
         void area(int l,int h)
         {
-            cout<< l*h;
+            cout<<"The area is="<< l*h<<"\n";
         }
         void circ(int l,int h)
         {
-        cout<<2*(l+h);
+        cout<<"The circumference is="<<2*(l+h)<<" ";
         }
 };
 int main()
