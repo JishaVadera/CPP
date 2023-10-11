@@ -10,11 +10,11 @@ class triangle
        
         void area(int b,int h)
         {
-            cout<< 0.5*b*h;
+            cout << "area is :" << 0.5*b*h << "\n";
         }
         void circ(int b,int h)
         {
-        cout<<3*b;
+        cout << "circumfernce is " <<3*b << "\n";
         }
 };
 int main()
